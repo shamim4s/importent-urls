@@ -1,11 +1,20 @@
-@echo off
-setlocal
+$scriptUrl = 'https://raw.githubusercontent.com/shamim4s/importent-urls/master/script.cmd'
+$scriptPath = Join-Path $env:TEMP 'my-script.cmd'
 
-set "SCRIPT=%TEMP%\my-script.cmd"
-set "URL=https://raw.githubusercontent.com/shamim4s/importent-urls/master/script.cmd"
+try {
+    Invoke-WebRequest -Uri $scriptUrl -OutFile $scriptPath -UseBasicParsing
 
-powershell -NoProfile -Command ^
-  "$p='%SCRIPT%'; Invoke-WebRequest -Uri '%URL%' -OutFile $p; Start-Process cmd.exe -Verb RunAs -ArgumentList '/c ""'+$p+'""' -Wait"
+    if (-not (Test-Path $scriptPath)) {
+        throw "Failed to download script.cmd"
+    }
 
-del "%SCRIPT%" 2>nul
-endlocal
+    Start-Process -FilePath "$env:SystemRoot\System32\cmd.exe" `
+        -Verb RunAs `
+        -ArgumentList "/c `"$scriptPath`"" `
+        -Wait
+}
+finally {
+    if (Test-Path $scriptPath) {
+        Remove-Item $scriptPath -Force -ErrorAction SilentlyContinue
+    }
+}
