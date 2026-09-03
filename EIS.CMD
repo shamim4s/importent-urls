@@ -1,0 +1,4 @@
+set cfg=cfg.xml
+copy %cfg% %temp%
+ehs_nt64.msi /qb ADMINCFG="%temp%\%cfg%" PRODUCTTYPE=eis CFG_POTENTIALLYUNWANTED_ENABLED=0 CFG_LIVEGRID_ENABLED=1 FIRSTSCAN_ENABLE=0 CFG_EPFW_MODE=0 ACTIVATION_DLG_SUPPRESS=1
+del "%temp%\%cfg%"
