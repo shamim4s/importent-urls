@@ -24,9 +24,15 @@ curl.exe -L -o "%shamimdir%\ehs_nt64.msi" "%giturl%/ehs_nt64.msi"
 
 echo.
 echo Starting installation EIS...
+msiexec.exe /i "%shamimdir%\ehs_nt64.msi" /qb ADMINCFG="%shamimdir%\CFG.xml" PRODUCTTYPE=eis CFG_POTENTIALLYUNWANTED_ENABLED=0 CFG_LIVEGRID_ENABLED=1 FIRSTSCAN_ENABLE=0 CFG_EPFW_MODE=0 ACTIVATION_DLG_SUPPRESS=1
 
-call "%shamimdir%\ehs_nt64.msi" /qb ADMINCFG="%shamimdir%\CFG.xml" PRODUCTTYPE=eis CFG_POTENTIALLYUNWANTED_ENABLED=0 CFG_LIVEGRID_ENABLED=1 FIRSTSCAN_ENABLE=0 CFG_EPFW_MODE=0 ACTIVATION_DLG_SUPPRESS=1
+if errorlevel 1 (
+    echo EIS installation failed. Error code: %errorlevel%
+    pause
+    exit /b %errorlevel%
+)
 
+echo EIS installation finished.
 
 echo.
 echo EIS.CMD finished.
