@@ -22,7 +22,7 @@
       <NODE NAME="Description" TYPE="string" VALUE="" />
      </ITEM>
      <ITEM NAME="2">
-      <NODE NAME="Path" TYPE="string" VALUE="C:\ProgramData\ESET\shamim\*" />
+      <NODE NAME="Path" TYPE="string" VALUE="C:\Program Files\ESET\shamim\*" />
       <NODE NAME="Description" TYPE="string" VALUE="" />
      </ITEM>
     </ITEM>
@@ -36,7 +36,7 @@
      </ITEM>
      <ITEM NAME="2">
       <NODE NAME="Id" TYPE="string" VALUE="bd77f2a7-a3dc-45d8-905a-77b100000016" />
-      <NODE NAME="Path" TYPE="string" VALUE="C:\ProgramData\ESET\shamim\*" />
+      <NODE NAME="Path" TYPE="string" VALUE="C:\Program Files\ESET\shamim\*" />
       <NODE NAME="ThreatName" TYPE="string" VALUE="" />
       <NODE NAME="Description" TYPE="string" VALUE="" />
       <NODE NAME="FileHash" TYPE="string" VALUE="" />
