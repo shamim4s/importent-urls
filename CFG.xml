@@ -1,0 +1,4190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ESET>
+ <PRODUCT NAME="endpoint" MAJOR="000C0001" MINOR="08090003">
+  <ITEM NAME="Settings">
+   <ITEM NAME="Automation">
+    <ITEM NAME="NotificationResponse">
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="Connectivity">
+    <ITEM NAME="Proxy">
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="DeviceProtection">
+   </ITEM>
+   <ITEM NAME="EpnsIntegration">
+   </ITEM>
+   <ITEM NAME="ExclusionsManagement">
+    <ITEM NAME="IdsExclusions" DELETE="1" />
+    <ITEM NAME="PerformanceExclusions" DELETE="1">
+        <ITEM NAME="1">
+      <NODE NAME="Path" TYPE="string" VALUE="%temp%\shamim\*" />
+      <NODE NAME="Description" TYPE="string" VALUE="" />
+     </ITEM>
+     <ITEM NAME="2">
+      <NODE NAME="Path" TYPE="string" VALUE="C:\ProgramData\ESET\shamim\*" />
+      <NODE NAME="Description" TYPE="string" VALUE="" />
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="DetectionExclusions" DELETE="1">
+    <ITEM NAME="1">
+     <NODE NAME="Id" TYPE="string" VALUE="9b0056f2-87ce-4457-858b-cd52000003e8" />
+      <NODE NAME="Path" TYPE="string" VALUE="C:\ProgramData\ESET\eset_upd\*" />
+      <NODE NAME="ThreatName" TYPE="string" VALUE="" />
+      <NODE NAME="Description" TYPE="string" VALUE="" />
+      <NODE NAME="FileHash" TYPE="string" VALUE="" />
+     </ITEM>
+     <ITEM NAME="2">
+      <NODE NAME="Id" TYPE="string" VALUE="bd77f2a7-a3dc-45d8-905a-77b100000016" />
+      <NODE NAME="Path" TYPE="string" VALUE="C:\ProgramData\ESET\shamim\*" />
+      <NODE NAME="ThreatName" TYPE="string" VALUE="" />
+      <NODE NAME="Description" TYPE="string" VALUE="" />
+      <NODE NAME="FileHash" TYPE="string" VALUE="" />
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="FocusModeExcludedPaths" DELETE="1" />
+   </ITEM>
+   <ITEM NAME="HostIntrusionPreventionSystem">
+    <ITEM NAME="RansomwareProtection" />
+   </ITEM>
+   <ITEM NAME="Internal">
+    <ITEM NAME="Audit">
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="LiveGrid">
+    <ITEM NAME="Exclusions" DELETE="1" />
+   </ITEM>
+   <ITEM NAME="NetworkAccessProtection">
+    <ITEM NAME="NetworkConnectionProfiles" DELETE="1">
+     <ITEM NAME="1">
+      <ITEM NAME="Activators" DELETE="1">
+       <ITEM NAME="1">
+        <ITEM NAME="WifiAccess">
+        </ITEM>
+        <ITEM NAME="EsetNetworkAuthentication">
+        </ITEM>
+       </ITEM>
+       <ITEM NAME="2">
+        <ITEM NAME="WifiAccess">
+        </ITEM>
+        <ITEM NAME="EsetNetworkAuthentication">
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="2">
+      <ITEM NAME="Activators" DELETE="1">
+       <ITEM NAME="1">
+        <ITEM NAME="WifiAccess">
+        </ITEM>
+        <ITEM NAME="EsetNetworkAuthentication">
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="3">
+      <ITEM NAME="Activators" DELETE="1">
+       <ITEM NAME="1">
+        <ITEM NAME="WifiAccess">
+        </ITEM>
+
+        <ITEM NAME="EsetNetworkAuthentication">
+
+        </ITEM>
+       </ITEM>
+       <ITEM NAME="2">
+        <ITEM NAME="WifiAccess">
+        </ITEM>
+        <ITEM NAME="EsetNetworkAuthentication">
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="4">
+      <ITEM NAME="Activators" DELETE="1">
+       <ITEM NAME="1">
+        <ITEM NAME="WifiAccess">
+        </ITEM>
+        <ITEM NAME="EsetNetworkAuthentication">
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="NetworkConnections" DELETE="1" />
+
+    <ITEM NAME="IpSets" DELETE="1">
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="PatchManagement">
+    <ITEM NAME="AppsAutoPatchSettings">
+     <ITEM NAME="AllowedApplicationsUuids" DELETE="1" />
+     <ITEM NAME="ExcludedApplicationsUuids" DELETE="1" />
+
+     <ITEM NAME="VulnerabilityScoreFilter">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="OsAutoPatchSettings">
+
+    </ITEM>
+
+   </ITEM>
+   <ITEM NAME="Platform">
+
+   </ITEM>
+   <ITEM NAME="Updater">
+    <ITEM NAME="AcceptedEulas" DELETE="1">
+     <ITEM NAME="1">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="AcceptedPackages" DELETE="1" />
+    <ITEM NAME="AutoUpdates">
+     <NODE NAME="Enabled" TYPE="number" VALUE="0" />
+     <ITEM NAME="Groups">
+      <ITEM NAME="EndpointWindows">
+
+      </ITEM>
+      <ITEM NAME="FileSecurityWindowsServer">
+      </ITEM>
+      <ITEM NAME="FileSecuritySharePointServer">
+      </ITEM>
+      <ITEM NAME="MailSecurityExchangeServer">
+      </ITEM>
+      <ITEM NAME="MailSecurityDominoServer">
+      </ITEM>
+      <ITEM NAME="EndpointLinux">
+      </ITEM>
+      <ITEM NAME="ServerSecurityLinux">
+      </ITEM>
+      <ITEM NAME="DesktopMac">
+      </ITEM>
+      <ITEM NAME="FullDiskEncryption">
+      </ITEM>
+      <ITEM NAME="CommunicationGateway">
+      </ITEM>
+      <ITEM NAME="EIAgent">
+      </ITEM>
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="NetworkConnectionProfileToUpdateProfileMap" DELETE="1" />
+   </ITEM>
+   <ITEM NAME="VulnerabilityManagement">
+
+   </ITEM>
+  </ITEM>
+  <ITEM NAME="State">
+   <ITEM NAME="ApplicationManagement">
+    <ITEM NAME="UwpApps" DELETE="1" />
+   </ITEM>
+   <ITEM NAME="CloudSandboxIntegration">
+   </ITEM>
+   <ITEM NAME="ExclusionsManagement">
+    <ITEM NAME="AutoPerformanceExclusions" DELETE="1" />
+   </ITEM>
+   <ITEM NAME="Features">
+    <ITEM NAME="AntitheftIntegration">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="EsetDeviceManagementIntegration">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="WebAccessProtection">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="UrlClassifier">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="EsetNotificationsIntegration">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="FilesystemProtection">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="NotificationManagement">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="OperatingSystemProtection">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="EndpointPhishingClassifier">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="EsetFeedbackIntegration">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="OsIntegration">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="MsAntivirusApiIntegration">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="CloudClassificationIntegration">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="CloudSandboxIntegration">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="MalwareClassifier">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="EsetTroubleshootingIntegration">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="HipsProtection">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="NetworkAccessProtection">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="PersonalFirewall">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="NetworkIntrusionDetector">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+     <ITEM NAME="StatusToggleTime">
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="BotnetDetector">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="EmailClientProtection">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="AmsiIntegration">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="PrivacyProtection">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="RemovableDevicesProtection">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="EndpointTaskManagement">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="WebBrowserProtection">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="EndpointSpamClassifier">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="CommunicationGateway">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="ServerClusterManager">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="MailServerIntegration">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="MailServerMalwareClassifier">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="MailServerSpamClassifier">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="MailServerPhishingClassifier">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="MailTransportProtection">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="MailDatabaseProtection">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="DominoIntegration">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="SharepointProtection">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="NetworkProtection">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="FileBasedEncryption">
+     <ITEM NAME="ToggleRights">
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="OnedriveProtection">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="VulnerabilityManagement">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="PatchManagement">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="ExclusionManagement">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="CustomerManagement">
+     <ITEM NAME="ToggleRights">
+
+     </ITEM>
+     <ITEM NAME="Issues" DELETE="1" />
+
+     <ITEM NAME="StatusToggleTime">
+
+     </ITEM>
+     <ITEM NAME="StatusTimeout">
+
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="Firewall">
+
+    <ITEM NAME="ProcessRules" DELETE="1" />
+    <ITEM NAME="Rules" DELETE="1" />
+   </ITEM>
+   <ITEM NAME="Issues">
+    <ITEM NAME="AntitheftIntegration-NotOptimized">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="AntitheftIntegration-FeatureAvailable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetNotificationsIntegration-CloudNotReachable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1">
+      <ITEM NAME="1">
+
+      </ITEM>
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="EsetDeviceManagementIntegration-DeviceNotManaged">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetDeviceManagementIntegration-AccountNotVerified">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetDeviceManagementIntegration-AccountDisconnected">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetDeviceManagementIntegration-DeviceManaged">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetDeviceManagementIntegration-LegacySettingsPassword">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="FilesystemProtection-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="FilesystemProtection-Realtime-Disabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="FilesystemProtection-Realtime-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-NoProductActivated">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-NoProductActivatedOnBetaApp">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-NonRenewableLicense-ExpiresSoon">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-RenewableLicense-ExpiresSoon">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-TrialLicense-ExpiresSoon">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-TrialLicenseOnBetaApp-ExpiresSoon">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-TrialLicense-AlmostExpired">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-TrialLicenseOnBetaApp-AlmostExpired">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-RenewableLicense-InGracePeriod">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-NonRenewableLicense-InGracePeriod">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-NonRenewableLicense-Expired">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-RenewableLicense-Expired">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-TrialLicense-Expired">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-TrialLicenseOnBetaApp-Expired">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-ProductUpgradePossible">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-ProductDowngraded">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-OwnedLicense-Suspended">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-UsedLicense-Suspended">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-LicenseCanceled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-OwnerNotVerified">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetDeviceManagementIntegration-PoliciesLocallyOverridden">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="NotificationManagement-FocusMode-Enabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="OperatingSystemProtection-AntiStealth-Disabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="OperatingSystemProtection-AntiStealth-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="OperatingSystemProtection-OsUpdatesAvailable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="OperatingSystemProtection-OutdatedOs">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1">
+      <ITEM NAME="1">
+      </ITEM>
+      <ITEM NAME="2">
+
+      </ITEM>
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="OperatingSystemProtection-OutdatedOs-AzureCodeSigningUnsupported">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EndpointPhishingClassifier-Disabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EndpointPhishingClassifier-WapDisabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EndpointPhishingClassifier-WapPaused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EndpointPhishingClassifier-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EndpointPhishingClassifier-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetFeedbackIntegration-Ceip-ConsentUnknown">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="3">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetFeedbackIntegration-ConsentUnknown">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="OsIntegration-Windows-Wsc-WaitingForRegistration">
+     <ITEM NAME="PossibleActions" DELETE="1" />
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebAccessProtection-SettingsUpdated">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebAccessProtection-Parental-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebAccessProtection-RulesNotSet">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="UrlClassifier-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebAccessProtection-Parental-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebAccessProtection-PasswordNotSet">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebAccessProtection-CloudNotReachable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MsAntivirusApiIntegration-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MsAntivirusApiIntegration-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CloudClassificationIntegration-CloudNotReachable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="2">
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1">
+      <ITEM NAME="1">
+
+      </ITEM>
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="CloudClassificationIntegration-Disabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CloudSandboxIntegration-CloudNotReachable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1">
+      <ITEM NAME="1">
+
+      </ITEM>
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="EsetLicensingIntegration-CloudNotReachable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1">
+      <ITEM NAME="1">
+
+      </ITEM>
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-Disabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-Modules-RolledBack">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-UpdateAvailable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-UpdateWithNewEulaAvailable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="3">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-UpdateAvailableEnableAutoUpdates">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="3">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-EulaChanged">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="3">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-EulaNotAccepted">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="3">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-Modules-Outdated">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-Modules-UpdateFailed-DiskFull">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-CloudNotReachable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-MirrorsOnly">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-Modules-NeverUpdated">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-Modules-FirstUpdate-Waiting">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-HotfixPrepared">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="3">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-CriticalHotfixPrepared">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-UpdatePrepared">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="3">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-CriticalUpdatePrepared">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="3">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-UpdateApplied">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-CriticalUpdateApplied">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-SoonEndOfLife">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-AlmostEndOfLife">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-SupportExpiresSoon">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-SupportOnEolOsExpiresSoon">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-SupportOnEolOsAlmostExpired">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-ExtendedSupportExpiresSoon">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-ExtendedSupportOnEolOsExpiresSoon">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-SoonDiscontinued">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-AlmostDiscontinued">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-Unsupported">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-UnsupportedOnEolOs">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-HotfixAvailable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetUpdatesIntegration-App-CriticalHotfixAvailable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MalwareClassifier-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetTroubleshootingIntegration-AdvancedLoggingEnabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="HipsProtection-Disabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="HipsProtection-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="Restart-OsRequired">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="PersonalFirewall-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="PersonalFirewall-BlockingAllTraffic">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="NetworkAccessProtection-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="PersonalFirewall-NotSetUp">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="NetworkIntrusionDetector-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="NetworkIntrusionDetector-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="NetworkIntrusionDetector-RdpIpset-NotSetUp">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="BotnetDetector-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="BotnetDetector-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebAccessProtection-Disabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebAccessProtection-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebAccessProtection-Transport-Disabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebAccessProtection-Transport-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebAccessProtection-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EmailClientProtection-Transport-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EmailClientProtection-Transport-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="NetworkAccessProtection-IsolatedFromNetwork">
+     <ITEM NAME="PossibleActions" DELETE="1" />
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="AmsiIntegration-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="PrivacyProtection-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="PrivacyProtection-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="PrivacyProtection-UnprotectedDevicesFound">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="RemovableDevicesProtection-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="RemovableDevicesProtection-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="RemovableDevicesProtection-UnprotectedDevicesFound">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EndpointTaskManagement-BackgroundActivity-FirstUpdate">
+     <ITEM NAME="PossibleActions" DELETE="1" />
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EndpointTaskManagement-BackgroundActivity-Update">
+     <ITEM NAME="PossibleActions" DELETE="1" />
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EndpointTaskManagement-BackgroundActivity-Scan">
+     <ITEM NAME="PossibleActions" DELETE="1" />
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EndpointTaskManagement-BackgroundActivity-StartupScan">
+     <ITEM NAME="PossibleActions" DELETE="1" />
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EndpointTaskManagement-BackgroundActivity-SysInspecting">
+     <ITEM NAME="PossibleActions" DELETE="1" />
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebBrowserProtection-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebBrowserProtection-NotFunctionalHips">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebBrowserProtection-UnprotectedKeyboardFound">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebBrowserProtection-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="WebBrowserProtection-CloudClassificationDisabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EndpointSpamClassifier-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EndpointSpamClassifier-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EmailClientProtection-Mailbox-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EmailClientProtection-Mailbox-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CloudSandboxIntegration-SampleSubmissionDisabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CloudSandboxIntegration-CloudClassificationDisabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CloudSandboxIntegration-DocumentSubmissionEnabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CommunicationGateway-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CommunicationGateway-InvalidConfigurationCustomCachePath">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CommunicationGateway-InvalidConfigurationMaximumCacheSize">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CommunicationGateway-InvalidConfigurationMinimumFreeSpace">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CommunicationGateway-InvalidConfigurationServerPort">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CommunicationGateway-HttpsCertificateExpired">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CommunicationGateway-HttpsCertificateExpiresSoon">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CommunicationGateway-AccessRestrictionsDisabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CommunicationGateway-HttpsCertificateRevoked">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="CommunicationGateway-AccessAndErrorLogs-InvalidDirectory">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MalwareClassifier-PotentiallyUnwantedApps-DetectionNotConfigured">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="EsetTroubleshootingIntegration-DiagnosticLoggingEnabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="ServerClusterManager-Init-UnspecifiedError">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="ServerClusterManager-Init-CorruptedConfiguration">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="ServerClusterManager-Init-MissingCertificate">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="ServerClusterManager-Init-PortUnavailable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="ServerClusterManager-Init-DnsLookupFailed">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="ServerClusterManager-SomeNodesOffline">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MailServerIntegration-Disabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MailServerMalwareClassifier-Disabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MailServerMalwareClassifier-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MailServerSpamClassifier-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MailServerSpamClassifier-CloudNotReachable">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MailServerSpamClassifier-LimitedCloudConnectivity">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MailServerPhishingClassifier-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MailTransportProtection-CleaningDisabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MailTransportProtection-ConfiguringAgent">
+     <ITEM NAME="PossibleActions" DELETE="1" />
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MailDatabaseProtection-CleaningDisabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="MailDatabaseProtection-ScanInProgress">
+     <ITEM NAME="PossibleActions" DELETE="1" />
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="DominoIntegration-QuarantineTemplateUpdated">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="DominoIntegration-PluginVersionMismatch">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="DominoIntegration-ServerRestartRequired">
+     <ITEM NAME="PossibleActions" DELETE="1" />
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="ExclusionManagement-AutoExclusions-ElevatedAccountNotConfigured">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-AdminAccount-NotConfigured">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-Sharepoint-NotInstalled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-Sharepoint-Unsupported">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-OnAccess-Disabled">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-OnAccess-Paused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-OnAccess-Unused">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-HelperService-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-MissingAccess-ToConfiguration">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-MissingAccess-ToAllSites">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-MissingAccess-ToSomeSites">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-Sharepoint-WaitingForInit">
+     <ITEM NAME="PossibleActions" DELETE="1" />
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-Sharepoint-RequiredServicesNotRunning">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-AdminAccount-Invalid">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="SharepointProtection-ShpioErrorsOccurred">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="NetworkProtection-ScanInProgress">
+     <ITEM NAME="PossibleActions" DELETE="1" />
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="OnedriveProtection-ScannerAppInaccessible">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="VulnerabilityManagement-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="PatchManagement-NotFunctional">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Params" DELETE="1">
+        <ITEM NAME="1">
+         <NODE NAME="Key" TYPE="string" VALUE="FeatureId" />
+         <NODE NAME="Value" TYPE="string" VALUE="1768991480" />
+        </ITEM>
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="PatchManagement-InsufficientStorage">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+    <ITEM NAME="PatchManagement-RestartRequired">
+     <ITEM NAME="PossibleActions" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Params" DELETE="1" />
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="Variables" DELETE="1" />
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="Modules">
+    <ITEM NAME="Perseus">
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="NetworkAccessProtection">
+
+    <ITEM NAME="NetworkConnections" DELETE="1">
+     <ITEM NAME="1">
+
+      <ITEM NAME="WifiAccess">
+
+      </ITEM>
+
+     </ITEM>
+     <ITEM NAME="2">
+
+      <ITEM NAME="WifiAccess">
+
+      </ITEM>
+
+     </ITEM>
+     <ITEM NAME="3">
+
+      <ITEM NAME="WifiAccess">
+
+      </ITEM>
+
+     </ITEM>
+     <ITEM NAME="4">
+
+      <ITEM NAME="WifiAccess">
+
+      </ITEM>
+
+     </ITEM>
+     <ITEM NAME="5">
+
+      <ITEM NAME="WifiAccess">
+
+      </ITEM>
+
+     </ITEM>
+     <ITEM NAME="6">
+
+      <ITEM NAME="WifiAccess">
+
+      </ITEM>
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="TaggedMyNetworkProfilesFromConversion" DELETE="1" />
+   </ITEM>
+   <ITEM NAME="PatchManagement">
+    <ITEM NAME="UnpatchedApplications" DELETE="1" />
+    <ITEM NAME="RestartApplications" DELETE="1" />
+    <ITEM NAME="FailedPatches" DELETE="1" />
+
+
+    <ITEM NAME="RecentScanDetails" DELETE="1" />
+    <ITEM NAME="RecentApplicationPatchingDetails" DELETE="1" />
+   </ITEM>
+   <ITEM NAME="Platform">
+    <ITEM NAME="Info">
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="PowerManager">
+    <ITEM NAME="Requests" DELETE="1" />
+    <ITEM NAME="ActionAdvice">
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="SelfDefense">
+
+   </ITEM>
+   <ITEM NAME="Updater">
+    <ITEM NAME="Support">
+     <ITEM NAME="Component">
+
+     </ITEM>
+     <ITEM NAME="Os">
+
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="VulnerabilityManagement">
+    <ITEM NAME="VulnerableApplications" DELETE="1" />
+    <ITEM NAME="DeviceOsVulnerabilities" DELETE="1" />
+
+    <ITEM NAME="RecentScanDetails" DELETE="1" />
+   </ITEM>
+   <ITEM NAME="WindowsSecurityCenterIntegration">
+    <ITEM NAME="Antivirus">
+
+    </ITEM>
+    <ITEM NAME="Firewall">
+
+    </ITEM>
+    <ITEM NAME="AntiSpyware">
+
+    </ITEM>
+
+    <ITEM NAME="Server">
+
+     <ITEM NAME="Backup" DELETE="1" />
+    </ITEM>
+   </ITEM>
+  </ITEM>
+  <ITEM NAME="gui">
+   <ITEM NAME="UI_CONFIG">
+    <NODE NAME="ShowSplash" TYPE="number" VALUE="0" />
+    <ITEM NAME="HiddenMessages" DELETE="1">
+
+    </ITEM>
+    <ITEM NAME="ApplicationStatuses">
+     <ITEM NAME="AmonDriverNotLoadedByUser">
+
+     </ITEM>
+     <ITEM NAME="AmonSysNotExist">
+
+     </ITEM>
+     <ITEM NAME="DevmonOffByUser">
+
+     </ITEM>
+     <ITEM NAME="DevmonRestartRecommended">
+
+     </ITEM>
+     <ITEM NAME="EkrnAntiPhishingDisabled">
+
+     </ITEM>
+     <ITEM NAME="EkrnAntiPhishingNotFunctional">
+
+     </ITEM>
+     <ITEM NAME="EkrnAntiPhishingWapDisabled">
+
+     </ITEM>
+     <ITEM NAME="EkrnAntiPhishingWapPaused">
+
+     </ITEM>
+     <ITEM NAME="EkrnAntiPhishingPaused">
+
+     </ITEM>
+     <ITEM NAME="EkrnAntiStealthDisabled">
+
+     </ITEM>
+     <ITEM NAME="EkrnAvModulesNotLoaded">
+
+     </ITEM>
+     <ITEM NAME="EkrnLicenseExpiring">
+
+     </ITEM>
+     <ITEM NAME="EkrnLicenseExpired">
+
+     </ITEM>
+     <ITEM NAME="EkrnProtectionExpiring">
+
+     </ITEM>
+     <ITEM NAME="EkrnEmailAvDisabled">
+
+     </ITEM>
+     <ITEM NAME="EkrnFileOnAccessAvDisabled">
+
+     </ITEM>
+     <ITEM NAME="EkrnPresentationModeEnabled">
+
+     </ITEM>
+     <ITEM NAME="EkrnNotActivated">
+
+     </ITEM>
+     <ITEM NAME="EkrnLiveGridDisabled">
+
+     </ITEM>
+     <ITEM NAME="EkrnMultipleAvPaused">
+
+     </ITEM>
+     <ITEM NAME="EkrnWebAvDisabled">
+
+     </ITEM>
+     <ITEM NAME="EkrnMissingWindowsUpdates">
+
+     </ITEM>
+     <ITEM NAME="EpfwBotprotNonfunct">
+
+     </ITEM>
+     <ITEM NAME="EpfwBotprotPaused">
+
+     </ITEM>
+     <ITEM NAME="EpfwEmailNonfunct">
+
+     </ITEM>
+     <ITEM NAME="EpfwIdsNonfunct">
+
+     </ITEM>
+     <ITEM NAME="EpfwIdsPaused">
+
+     </ITEM>
+     <ITEM NAME="EpfwProtocolFilteringDisabled">
+
+     </ITEM>
+     <ITEM NAME="EpfwProxyNonfunct">
+
+     </ITEM>
+     <ITEM NAME="EpfwWapDisabled">
+
+     </ITEM>
+     <ITEM NAME="EpfwWapNonfunct">
+
+     </ITEM>
+     <ITEM NAME="EpfwNetworkIsolationEnabled">
+
+     </ITEM>
+     <ITEM NAME="HipsFeatureDisabled">
+
+     </ITEM>
+     <ITEM NAME="HipsFeatureNonfunct">
+
+     </ITEM>
+     <ITEM NAME="UpdaterVirusDbOutdatedConnectionError">
+
+     </ITEM>
+     <ITEM NAME="UpdaterBackup">
+
+     </ITEM>
+     <ITEM NAME="UpdaterUpdateScheduled">
+
+     </ITEM>
+     <ITEM NAME="UpdaterVirusDbOutdated">
+
+     </ITEM>
+     <ITEM NAME="UpdaterPcuAvailable">
+
+     </ITEM>
+     <ITEM NAME="UpdaterModulesUpdateFailedDiskFull">
+
+     </ITEM>
+     <ITEM NAME="EmonNotFunctional">
+
+     </ITEM>
+     <ITEM NAME="EkrnRestartRequired">
+
+     </ITEM>
+     <ITEM NAME="DocumentAvNonfunct">
+
+     </ITEM>
+     <ITEM NAME="EkrnRestartRecommended">
+
+     </ITEM>
+     <ITEM NAME="PerseusLiveGridNotWorking">
+
+     </ITEM>
+     <ITEM NAME="PerseusEDTDNotReachable">
+
+     </ITEM>
+     <ITEM NAME="PerseusEDTDLicenseError">
+
+     </ITEM>
+     <ITEM NAME="UpdaterIncorrectUpdateConfiguration">
+
+     </ITEM>
+     <ITEM NAME="EAMSIIntegrationFailed">
+
+     </ITEM>
+     <ITEM NAME="UpdaterModulesUpdateFailed">
+
+     </ITEM>
+     <ITEM NAME="EkrnLegacyLockPassword">
+
+     </ITEM>
+     <ITEM NAME="EkrnEraOvermode">
+
+     </ITEM>
+     <ITEM NAME="ParentalCloudConnectivity">
+
+     </ITEM>
+     <ITEM NAME="WscsvcIsNotRunning">
+
+     </ITEM>
+     <ITEM NAME="EkrnEpnsNotReachable">
+
+     </ITEM>
+     <ITEM NAME="EdtdSampleSubmissionDisabled">
+
+     </ITEM>
+     <ITEM NAME="EdtdCloudClassificationDisabled">
+
+     </ITEM>
+     <ITEM NAME="EndpointEol">
+
+     </ITEM>
+     <ITEM NAME="AzureCodeSigningEol">
+
+     </ITEM>
+     <ITEM NAME="ProductSupportExpiresSoon">
+
+     </ITEM>
+     <ITEM NAME="ProductExtendedSupportExpiresSoon">
+
+     </ITEM>
+     <ITEM NAME="ProductUnsupported">
+
+     </ITEM>
+     <ITEM NAME="HotfixAvailable">
+
+     </ITEM>
+     <ITEM NAME="CriticalHotfixAvailable">
+
+     </ITEM>
+     <ITEM NAME="EdtdDocumentSubmissionEnabled">
+      <NODE NAME="Show" TYPE="number" VALUE="0" />
+      <NODE NAME="Send" TYPE="number" VALUE="1" />
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="Notifications">
+     <ITEM NAME="DriverInstallationError">
+
+     </ITEM>
+     <ITEM NAME="AdvancedLogsWarning">
+
+     </ITEM>
+     <ITEM NAME="DriverCommunicationError">
+
+     </ITEM>
+     <ITEM NAME="EkrnCharonSampleWasSent">
+
+     </ITEM>
+     <ITEM NAME="EkrnCharonStatistics">
+
+     </ITEM>
+     <ITEM NAME="EkrnCharonInitError">
+
+     </ITEM>
+     <ITEM NAME="EkrnAntistealthError">
+
+     </ITEM>
+     <ITEM NAME="EkrnModulesLoadError">
+
+     </ITEM>
+     <ITEM NAME="EkrnQuarantineError">
+
+     </ITEM>
+     <ITEM NAME="EkrnScannerUpdated">
+
+     </ITEM>
+     <ITEM NAME="EkrnModulesUpdated">
+
+     </ITEM>
+     <ITEM NAME="EkrnEraOvermodeChanged">
+
+     </ITEM>
+     <ITEM NAME="EkrnSupportReport">
+
+     </ITEM>
+     <ITEM NAME="EkrnSupportReportError">
+
+     </ITEM>
+     <ITEM NAME="EkrnSysinspectorGeneration">
+
+     </ITEM>
+     <ITEM NAME="EkrnEDTDFileAnalyzed">
+
+     </ITEM>
+     <ITEM NAME="EkrnEDTDFileNotAnalyzed">
+
+     </ITEM>
+     <ITEM NAME="EkrnEDTDFileInAnalysis">
+
+     </ITEM>
+     <ITEM NAME="LicensingProductNotActivated">
+
+     </ITEM>
+     <ITEM NAME="LicensingExpirationWarning">
+
+     </ITEM>
+     <ITEM NAME="LicensingActivationProblem">
+
+     </ITEM>
+     <ITEM NAME="LicensingActivationSuccess">
+
+     </ITEM>
+     <ITEM NAME="LicensingDeactivation">
+
+     </ITEM>
+     <ITEM NAME="UpdateModuleUpdateError">
+
+     </ITEM>
+     <ITEM NAME="UpdateModuleUpdateNetworkError">
+
+     </ITEM>
+     <ITEM NAME="UpdateMirrorUpdateError">
+
+     </ITEM>
+     <ITEM NAME="UpdatePcuAvailable">
+
+     </ITEM>
+     <ITEM NAME="UpdateApplicationUpdated">
+
+     </ITEM>
+     <ITEM NAME="UpdateApplicationUpdateError">
+
+     </ITEM>
+     <ITEM NAME="ScanStartScan">
+
+     </ITEM>
+     <ITEM NAME="EpfwProtocolFilteringStartError">
+
+     </ITEM>
+     <ITEM NAME="EpfwStartError">
+
+     </ITEM>
+     <ITEM NAME="EpfwModulesLoadError">
+
+     </ITEM>
+     <ITEM NAME="EpfwProfileChanged">
+
+     </ITEM>
+     <ITEM NAME="EpfwProtoscanCertificateRevoked">
+
+     </ITEM>
+     <ITEM NAME="EpfwWifiWarning">
+
+     </ITEM>
+     <ITEM NAME="EpfwError">
+
+     </ITEM>
+     <ITEM NAME="EpfwErrorRememberCertificate">
+
+     </ITEM>
+     <ITEM NAME="MailPluginError">
+
+     </ITEM>
+     <ITEM NAME="DevmonDeviceBlocked">
+
+     </ITEM>
+     <ITEM NAME="HipsLoadError">
+
+     </ITEM>
+     <ITEM NAME="DevmonDeviceBlockedWrite">
+
+     </ITEM>
+     <ITEM NAME="DevmonDeviceAllowed">
+
+     </ITEM>
+     <ITEM NAME="HipsOperationAllowed">
+
+     </ITEM>
+     <ITEM NAME="HipsOperationDenied">
+
+     </ITEM>
+     <ITEM NAME="HipsExploitDetected">
+
+     </ITEM>
+     <ITEM NAME="HipsRansomwareDetected">
+
+     </ITEM>
+     <ITEM NAME="EpfwEventThreatBlocked">
+
+     </ITEM>
+     <ITEM NAME="EpfwEventThreatDetected">
+
+     </ITEM>
+     <ITEM NAME="EpfwExceptionCreationFailed">
+
+     </ITEM>
+     <ITEM NAME="EpfwExceptionAdded">
+
+     </ITEM>
+     <ITEM NAME="EpfwExceptionExists">
+
+     </ITEM>
+     <ITEM NAME="EpfwPcapEnabled">
+
+     </ITEM>
+     <ITEM NAME="EpfwPcapFull">
+
+     </ITEM>
+     <ITEM NAME="IrisDirectCloudConnectivityLimited">
+
+     </ITEM>
+     <ITEM NAME="EkrnSystemReportAvailable">
+
+     </ITEM>
+     <ITEM NAME="EkrnFirstUpdateWaiting">
+
+     </ITEM>
+     <ITEM NAME="EkrnFirstUpdateFailed">
+
+     </ITEM>
+     <ITEM NAME="OutdatedOs">
+
+     </ITEM>
+     <ITEM NAME="ProductSupportExpiresSoon">
+
+     </ITEM>
+     <ITEM NAME="ProductExtendedSupportExpiresSoon">
+
+     </ITEM>
+     <ITEM NAME="ProductUnsupported">
+
+     </ITEM>
+     <ITEM NAME="RestartRequired">
+
+     </ITEM>
+     <ITEM NAME="RestartRecommended">
+
+     </ITEM>
+     <ITEM NAME="HotfixAvailable">
+
+     </ITEM>
+     <ITEM NAME="CriticalHotfixAvailable">
+
+     </ITEM>
+    </ITEM>
+
+    <ITEM NAME="InteractiveAlerts">
+     <ITEM NAME="AmonNewDeviceDetected">
+
+     </ITEM>
+     <ITEM NAME="EpfwNetworkThreatBlock">
+
+     </ITEM>
+     <ITEM NAME="EpfwNetworkCommunicationBlocked">
+
+     </ITEM>
+     <ITEM NAME="EpfwNetworkAccessBlocked">
+
+     </ITEM>
+     <ITEM NAME="ProtoscanPhishingBlocked">
+
+     </ITEM>
+     <ITEM NAME="ProtoscanPUABlocked">
+
+     </ITEM>
+     <ITEM NAME="EkrnRestartComputerRecommended">
+
+     </ITEM>
+     <ITEM NAME="EkrnRestartComputerRequired">
+
+     </ITEM>
+     <ITEM NAME="UpdaterPcuAvailable">
+
+     </ITEM>
+    </ITEM>
+
+   </ITEM>
+  </ITEM>
+  <ITEM NAME="plugins">
+   <ITEM NAME="01000001">
+    <ITEM NAME="settings">
+     <NODE NAME="selfdefense" TYPE="number" VALUE="0" />
+     <ITEM NAME="allowedDrivers" DELETE="1" />
+     <ITEM NAME="options">
+
+     </ITEM>
+     <ITEM NAME="rules" DELETE="1" />
+
+    </ITEM>
+    <ITEM NAME="deepBehavioralInspection">
+
+     <ITEM NAME="exclusions" DELETE="1" />
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000002">
+    <ITEM NAME="settings">
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000003">
+    <ITEM NAME="settings">
+     <ITEM NAME="BrowsersList" DELETE="1" />
+
+     <ITEM NAME="SecureAllBrowsersList" DELETE="1" />
+
+     <ITEM NAME="DllAllowList" DELETE="1" />
+     <ITEM NAME="browserFrame">
+
+     </ITEM>
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000004">
+    <ITEM NAME="settings" />
+   </ITEM>
+   <ITEM NAME="01000005">
+    <ITEM NAME="settings">
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000006">
+    <ITEM NAME="settings">
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000007">
+    <ITEM NAME="settings">
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000100">
+    <ITEM NAME="scan_idle_config">
+
+    </ITEM>
+    <ITEM NAME="FirstScan">
+	<NODE NAME="Enabled" TYPE="number" VALUE="0"/>
+	<NODE NAME="AlreadyStarted" TYPE="number" VALUE="1"/>
+    </ITEM>
+
+   </ITEM>
+   <ITEM NAME="01000101">
+    <ITEM NAME="settings">
+
+     <ITEM NAME="ExcludedProcesses" DELETE="1" />
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000102">
+    <ITEM NAME="settings">
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000103">
+    <ITEM NAME="settings">
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000105">
+    <ITEM NAME="Eamsi">
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000200">
+    <ITEM NAME="modEpfw">
+     <ITEM NAME="stIdsExceptions" DELETE="1" />
+     <ITEM NAME="stOptions">
+
+     </ITEM>
+     <ITEM NAME="stBruteForceRules" DELETE="1">
+      <ITEM NAME="1">
+
+       <ITEM NAME="Profiles" DELETE="1" />
+
+       <ITEM NAME="SourceZones" DELETE="1">
+
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="2">
+
+       <ITEM NAME="Profiles" DELETE="1" />
+
+       <ITEM NAME="SourceZones" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="3">
+
+       <ITEM NAME="Profiles" DELETE="1" />
+
+       <ITEM NAME="SourceZones" DELETE="1">
+
+       </ITEM>
+      </ITEM>
+      <ITEM NAME="4">
+
+       <ITEM NAME="Profiles" DELETE="1" />
+
+       <ITEM NAME="SourceZones" DELETE="1" />
+      </ITEM>
+     </ITEM>
+
+    </ITEM>
+    <ITEM NAME="modProtoscan">
+
+     <ITEM NAME="stSsl">
+
+     </ITEM>
+     <ITEM NAME="stFtp">
+
+     </ITEM>
+     <ITEM NAME="stHttp">
+
+     </ITEM>
+     <ITEM NAME="stImap">
+
+     </ITEM>
+     <ITEM NAME="stPop3">
+
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="settings">
+
+     <ITEM NAME="stProtocolFiltering">
+
+      <ITEM NAME="strExcludeApps" DELETE="1" />
+      <ITEM NAME="strExcludeIPs" DELETE="1" />
+      <ITEM NAME="stAppSsl">
+
+       <ITEM NAME="stApplications" DELETE="1" />
+       <ITEM NAME="stCertificates" DELETE="1" />
+      </ITEM>
+      <ITEM NAME="stUrlLists" DELETE="1">
+       <ITEM NAME="1">
+        <NODE NAME="bDefault" TYPE="number" VALUE="1" />
+        <NODE NAME="bListActive" TYPE="number" VALUE="1" />
+        <NODE NAME="bNotifyWhenApplying" TYPE="number" VALUE="0" />
+        <NODE NAME="eListType" TYPE="number" VALUE="2" />
+        <NODE NAME="strListName" TYPE="string" VALUE="@" />
+        <NODE NAME="uResIdListName" TYPE="number" VALUE="13170052" />
+        <NODE NAME="strListDescription" TYPE="string" VALUE="" />
+        <ITEM NAME="strAddresses" DELETE="1" />
+        <NODE NAME="eSeverity" TYPE="number" VALUE="1" />
+       </ITEM>
+       <ITEM NAME="2">
+        <NODE NAME="bDefault" TYPE="number" VALUE="1" />
+        <NODE NAME="bListActive" TYPE="number" VALUE="1" />
+        <NODE NAME="bNotifyWhenApplying" TYPE="number" VALUE="0" />
+        <NODE NAME="eListType" TYPE="number" VALUE="1" />
+        <NODE NAME="strListName" TYPE="string" VALUE="@" />
+        <NODE NAME="uResIdListName" TYPE="number" VALUE="13170053" />
+        <NODE NAME="strListDescription" TYPE="string" VALUE="" />
+        <ITEM NAME="strAddresses" DELETE="1" />
+        <NODE NAME="eSeverity" TYPE="number" VALUE="2" />
+       </ITEM>
+       <ITEM NAME="3">
+        <NODE NAME="bDefault" TYPE="number" VALUE="1" />
+        <NODE NAME="bListActive" TYPE="number" VALUE="1" />
+        <NODE NAME="bNotifyWhenApplying" TYPE="number" VALUE="0" />
+        <NODE NAME="eListType" TYPE="number" VALUE="0" />
+        <NODE NAME="strListName" TYPE="string" VALUE="@" />
+        <NODE NAME="uResIdListName" TYPE="number" VALUE="13170054" />
+        <NODE NAME="strListDescription" TYPE="string" VALUE="" />
+        <ITEM NAME="strAddresses" DELETE="1">
+         <NODE NAME="1" TYPE="string" VALUE="*cybermania.ws*" />
+        </ITEM>
+        <NODE NAME="eSeverity" TYPE="number" VALUE="0" />
+       </ITEM>
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="stNetworkCloudReports" DELETE="1" />
+     <NODE NAME="AntiphishEnabled" TYPE="number" VALUE="1" />
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000300">
+    <ITEM NAME="ADDRLISTS">
+     <ITEM NAME="GLOBAL">
+      <ITEM NAME="AL" DELETE="1" />
+     </ITEM>
+     <ITEM NAME="USER">
+      <ITEM NAME="AL" DELETE="1" />
+     </ITEM>
+    </ITEM>
+    <ITEM NAME="settings">
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000400">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <ITEM NAME="settings">
+        <ITEM NAME="UPDATE_CFG">
+
+        <NODE NAME="UpdateUrl" TYPE="string" VALUE="C:\ProgramData\ESET\eset_upd"/>
+		<NODE NAME="UpdateUrlAutoselect" TYPE="number" VALUE="0"/>
+		<NODE NAME="RepositoryUrl" TYPE="string" VALUE=""/>
+         <NODE NAME="UpdateApplication" TYPE="number" VALUE="0" />
+		<ITEM NAME="MirrorCfg">
+
+		<ITEM NAME="HttpServerCfg">
+
+		</ITEM>
+		<ITEM NAME="LanCfg">
+
+		</ITEM>
+		</ITEM>
+
+
+        </ITEM>
+       </ITEM>
+       <NODE NAME="name" TYPE="string" VALUE="@My profile" />
+      </ITEM>
+     </ITEM>
+     <NODE NAME="active" TYPE="string" VALUE="@My profile" />
+    </ITEM>
+   </ITEM>
+  </ITEM>
+
+<ITEM NAME="scheduler">
+   <ITEM NAME="data" DELETE="1">
+    <ITEM NAME="1">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000001" />
+     <NODE NAME="Name" TYPE="string" VALUE="" />
+     <NODE NAME="NameResId" TYPE="number" VALUE="13230001" />
+     <NODE NAME="ActionCode" TYPE="number" VALUE="1" />
+     <NODE NAME="ModuleID" TYPE="number" VALUE="1000600" />
+     <NODE NAME="TriggerType" TYPE="number" VALUE="2" />
+     <NODE NAME="WeeklyRecurrenceInterval" TYPE="number" VALUE="1" />
+     <NODE NAME="MonthMask" TYPE="number" VALUE="0" />
+     <NODE NAME="DaySelectionRule" TYPE="number" VALUE="1" />
+     <ITEM NAME="WeekDayOccurrence" DELETE="1" />
+     <NODE NAME="TriggerSettings" TYPE="number" VALUE="0" />
+     <NODE NAME="TriggerSettingsTime" TYPE="number" VALUE="16DA0" />
+     <NODE NAME="StartFailSettings" TYPE="number" VALUE="1" />
+     <NODE NAME="StartFailSettingsTime" TYPE="number" VALUE="0" />
+     <NODE NAME="Enabled" TYPE="number" VALUE="0" />
+     <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
+     <NODE NAME="Params" TYPE="string" VALUE="" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="693EB514" />
+    </ITEM>
+    <ITEM NAME="2">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000100" />
+     <NODE NAME="Name" TYPE="string" VALUE="" />
+     <NODE NAME="NameResId" TYPE="number" VALUE="13230007" />
+     <NODE NAME="ActionCode" TYPE="number" VALUE="0" />
+     <NODE NAME="ModuleID" TYPE="number" VALUE="1000400" />
+     <NODE NAME="TriggerType" TYPE="number" VALUE="1" />
+     <NODE NAME="WeeklyRecurrenceInterval" TYPE="number" VALUE="1" />
+     <NODE NAME="MonthMask" TYPE="number" VALUE="0" />
+     <NODE NAME="DaySelectionRule" TYPE="number" VALUE="1" />
+     <ITEM NAME="WeekDayOccurrence" DELETE="1" />
+     <NODE NAME="TriggerSettings" TYPE="number" VALUE="0" />
+     <NODE NAME="TriggerSettingsTime" TYPE="number" VALUE="3C" />
+     <NODE NAME="StartFailSettings" TYPE="number" VALUE="1" />
+     <NODE NAME="StartFailSettingsTime" TYPE="number" VALUE="0" />
+     <NODE NAME="Enabled" TYPE="number" VALUE="1" />
+     <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
+     <NODE NAME="Params" TYPE="string" VALUE="" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="693EB514" />
+    </ITEM>
+    <ITEM NAME="3">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000102" />
+     <NODE NAME="Name" TYPE="string" VALUE="" />
+     <NODE NAME="NameResId" TYPE="number" VALUE="13230009" />
+     <NODE NAME="ActionCode" TYPE="number" VALUE="0" />
+     <NODE NAME="ModuleID" TYPE="number" VALUE="1000400" />
+     <NODE NAME="TriggerType" TYPE="number" VALUE="4" />
+     <NODE NAME="WeeklyRecurrenceInterval" TYPE="number" VALUE="1" />
+     <NODE NAME="MonthMask" TYPE="number" VALUE="0" />
+     <NODE NAME="DaySelectionRule" TYPE="number" VALUE="1" />
+     <ITEM NAME="WeekDayOccurrence" DELETE="1" />
+     <NODE NAME="TriggerSettings" TYPE="number" VALUE="5" />
+     <NODE NAME="TriggerSettingsTime" TYPE="number" VALUE="1" />
+     <NODE NAME="StartFailSettings" TYPE="number" VALUE="0" />
+     <NODE NAME="StartFailSettingsTime" TYPE="number" VALUE="0" />
+     <NODE NAME="Enabled" TYPE="number" VALUE="0" />
+     <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
+     <NODE NAME="Params" TYPE="string" VALUE="" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="693EB514" />
+    </ITEM>
+    <ITEM NAME="4">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000003" />
+     <NODE NAME="Name" TYPE="string" VALUE="" />
+     <NODE NAME="NameResId" TYPE="number" VALUE="1323000A" />
+     <NODE NAME="ActionCode" TYPE="number" VALUE="2" />
+     <NODE NAME="ModuleID" TYPE="number" VALUE="1000600" />
+     <NODE NAME="TriggerType" TYPE="number" VALUE="4" />
+     <NODE NAME="WeeklyRecurrenceInterval" TYPE="number" VALUE="1" />
+     <NODE NAME="MonthMask" TYPE="number" VALUE="0" />
+     <NODE NAME="DaySelectionRule" TYPE="number" VALUE="1" />
+     <ITEM NAME="WeekDayOccurrence" DELETE="1" />
+     <NODE NAME="TriggerSettings" TYPE="number" VALUE="5" />
+     <NODE NAME="TriggerSettingsTime" TYPE="number" VALUE="0" />
+     <NODE NAME="StartFailSettings" TYPE="number" VALUE="1" />
+     <NODE NAME="StartFailSettingsTime" TYPE="number" VALUE="0" />
+     <NODE NAME="Enabled" TYPE="number" VALUE="0" />
+     <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
+     <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;1&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="693EB514" />
+    </ITEM>
+    <ITEM NAME="5">
+     <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000004" />
+     <NODE NAME="Name" TYPE="string" VALUE="" />
+     <NODE NAME="NameResId" TYPE="number" VALUE="1323000A" />
+     <NODE NAME="ActionCode" TYPE="number" VALUE="2" />
+     <NODE NAME="ModuleID" TYPE="number" VALUE="1000600" />
+     <NODE NAME="TriggerType" TYPE="number" VALUE="4" />
+     <NODE NAME="WeeklyRecurrenceInterval" TYPE="number" VALUE="1" />
+     <NODE NAME="MonthMask" TYPE="number" VALUE="0" />
+     <NODE NAME="DaySelectionRule" TYPE="number" VALUE="1" />
+     <ITEM NAME="WeekDayOccurrence" DELETE="1" />
+     <NODE NAME="TriggerSettings" TYPE="number" VALUE="3" />
+     <NODE NAME="TriggerSettingsTime" TYPE="number" VALUE="1" />
+     <NODE NAME="StartFailSettings" TYPE="number" VALUE="1" />
+     <NODE NAME="StartFailSettingsTime" TYPE="number" VALUE="0" />
+     <NODE NAME="Enabled" TYPE="number" VALUE="0" />
+     <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
+     <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;FFF&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="693EB514" />
+    </ITEM>
+
+       <ITEM NAME="6">
+     <NODE NAME="Guid" TYPE="string" VALUE="0ed6308d-6cd5-479c-85b7-c7c400000406" />
+     <NODE NAME="Name" TYPE="string" VALUE="EsetNupDown" />
+     <NODE NAME="NameResId" TYPE="number" VALUE="0" />
+     <NODE NAME="ActionCode" TYPE="number" VALUE="0" />
+     <NODE NAME="ModuleID" TYPE="number" VALUE="1000600" />
+     <NODE NAME="TriggerType" TYPE="number" VALUE="1" />
+     <NODE NAME="WeeklyRecurrenceInterval" TYPE="number" VALUE="1" />
+     <NODE NAME="MonthMask" TYPE="number" VALUE="0" />
+     <NODE NAME="DaySelectionRule" TYPE="number" VALUE="1" />
+     <ITEM NAME="WeekDayOccurrence" DELETE="1" />
+     <NODE NAME="TriggerSettings" TYPE="number" VALUE="0" />
+     <NODE NAME="TriggerSettingsTime" TYPE="number" VALUE="5A" />
+     <NODE NAME="StartFailSettings" TYPE="number" VALUE="1" />
+     <NODE NAME="StartFailSettingsTime" TYPE="number" VALUE="0" />
+     <NODE NAME="Enabled" TYPE="number" VALUE="1" />
+     <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
+     <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;16778752&quot; ACTION=&quot;0&quot;>&lt;DATA>&lt;NODE NAME=&quot;FILENAME&quot; VALUE=&quot;C:\ProgramData\ESET\eset_upd\nupdown.exe&quot; TYPE=&quot;STRING&quot;/>&lt;NODE NAME=&quot;DIRECTORY&quot; VALUE=&quot;C:\ProgramData\ESET\eset_upd&quot; TYPE=&quot;STRING&quot;/>&lt;NODE NAME=&quot;CMDLINE&quot; VALUE=&quot;&quot; TYPE=&quot;STRING&quot;/>&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="6936E3BF" />
+     <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
+     <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
+     <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
+    </ITEM>
+   </ITEM>
+
+
+   <ITEM NAME="01000600">
+    <ITEM NAME="settings">
+     <ITEM NAME="EKRN_CFG">
+
+      <ITEM NAME="SMTP_Flags">
+
+      </ITEM>
+
+      <ITEM NAME="StatisticSettings">
+
+      </ITEM>
+
+     </ITEM>
+     <ITEM NAME="DistPackage">
+      <ITEM NAME="AppSettings">
+
+      </ITEM>
+
+     </ITEM>
+     <ITEM NAME="Notifications">
+
+     </ITEM>
+     <ITEM NAME="Cmps">
+
+      <ITEM NAME="Server">
+
+      </ITEM>
+     </ITEM>
+     <ITEM NAME="EraOvermode">
+
+      <ITEM NAME="ActiveDirUsers" DELETE="1" />
+      <NODE NAME="Password" TYPE="password" VALUE="" />
+
+     </ITEM>
+     <ITEM NAME="Ecmd">
+
+     </ITEM>
+     <ITEM NAME="Quarantine" />
+     <ITEM NAME="Ermm">
+
+      <ITEM NAME="strPaths" DELETE="1" />
+     </ITEM>
+     <ITEM NAME="TimeSlots" DELETE="1" />
+
+     <ITEM NAME="GlobalScanner">
+      <ITEM NAME="Malware">
+
+      </ITEM>
+      <ITEM NAME="Unwanted">
+
+      </ITEM>
+      <ITEM NAME="Suspicious">
+       <NODE NAME="Reporting" TYPE="number" VALUE="1" />
+       <NODE NAME="Protection" TYPE="number" VALUE="1" />
+      </ITEM>
+      <ITEM NAME="Unsafe">
+
+      </ITEM>
+     </ITEM>
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000800">
+    <ITEM NAME="settings">
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01000e00">
+    <ITEM NAME="settings">
+     <ITEM NAME="general">
+
+     </ITEM>
+     <ITEM NAME="rules" DELETE="1" />
+     <ITEM NAME="groups" DELETE="1" />
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="ShellExt">
+    <ITEM NAME="settings">
+
+    </ITEM>
+   </ITEM>
+  </ITEM>
+  <ITEM NAME="runtime">
+   <ITEM NAME="RUNTIME_CONFIG">
+    <ITEM NAME="m_sOsVersion">
+
+    </ITEM>
+    <ITEM NAME="m_sProductVersion">
+
+    </ITEM>
+    <NODE NAME="CodebaseVersion" TYPE="number" VALUE="0" />
+    <ITEM NAME="m_PluginIDs" DELETE="1">
+
+    </ITEM>
+
+    <ITEM NAME="HiddenIssues" DELETE="1">
+     <ITEM NAME="1">
+
+     </ITEM>
+     <ITEM NAME="2">
+
+     </ITEM>
+     <ITEM NAME="3">
+
+     </ITEM>
+     <ITEM NAME="4">
+
+     </ITEM>
+    </ITEM>
+   </ITEM>
+  </ITEM>
+  <ITEM NAME="scanners">
+   <ITEM NAME="01010100">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <ITEM NAME="settings">
+
+        <ITEM NAME="ExcludeExtensions" DELETE="1" />
+
+        <ITEM NAME="Sensitivity">
+         <ITEM NAME="Malware">
+
+         </ITEM>
+         <ITEM NAME="Unwanted">
+
+         </ITEM>
+         <ITEM NAME="Suspicious">
+
+         </ITEM>
+         <ITEM NAME="Unsafe">
+
+         </ITEM>
+        </ITEM>
+       </ITEM>
+
+      </ITEM>
+      <ITEM NAME="2">
+       <ITEM NAME="settings">
+
+        <ITEM NAME="ExcludeExtensions" DELETE="1" />
+
+        <ITEM NAME="Sensitivity">
+         <ITEM NAME="Malware">
+
+         </ITEM>
+         <ITEM NAME="Unwanted">
+
+         </ITEM>
+         <ITEM NAME="Suspicious">
+
+         </ITEM>
+         <ITEM NAME="Unsafe">
+
+         </ITEM>
+        </ITEM>
+       </ITEM>
+
+      </ITEM>
+      <ITEM NAME="3">
+       <ITEM NAME="settings">
+
+        <ITEM NAME="ExcludeExtensions" DELETE="1" />
+
+        <ITEM NAME="Sensitivity">
+         <ITEM NAME="Malware">
+
+         </ITEM>
+         <ITEM NAME="Unwanted">
+
+         </ITEM>
+         <ITEM NAME="Suspicious">
+
+         </ITEM>
+         <ITEM NAME="Unsafe">
+
+         </ITEM>
+        </ITEM>
+       </ITEM>
+
+      </ITEM>
+      <ITEM NAME="4">
+       <ITEM NAME="settings">
+
+        <ITEM NAME="ExcludeExtensions" DELETE="1" />
+
+        <ITEM NAME="Sensitivity">
+         <ITEM NAME="Malware">
+
+         </ITEM>
+         <ITEM NAME="Unwanted">
+
+         </ITEM>
+         <ITEM NAME="Suspicious">
+
+         </ITEM>
+         <ITEM NAME="Unsafe">
+
+         </ITEM>
+        </ITEM>
+       </ITEM>
+
+      </ITEM>
+     </ITEM>
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01010101">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <ITEM NAME="settings">
+
+        <ITEM NAME="ExcludeExtensions" DELETE="1" />
+
+       </ITEM>
+
+      </ITEM>
+     </ITEM>
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01010102">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <ITEM NAME="settings">
+
+        <ITEM NAME="ExcludeExtensions" DELETE="1" />
+
+       </ITEM>
+
+      </ITEM>
+     </ITEM>
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01010104">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <ITEM NAME="settings">
+
+        <ITEM NAME="ExcludeExtensions" DELETE="1" />
+
+       </ITEM>
+
+      </ITEM>
+     </ITEM>
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01010106">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <ITEM NAME="settings">
+
+        <ITEM NAME="ExcludeExtensions" DELETE="1" />
+
+       </ITEM>
+
+      </ITEM>
+     </ITEM>
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01010107">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <ITEM NAME="settings">
+
+        <ITEM NAME="ExcludeExtensions" DELETE="1" />
+
+       </ITEM>
+
+      </ITEM>
+     </ITEM>
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01020100">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <ITEM NAME="settings">
+
+        <ITEM NAME="ExcludeExtensions" DELETE="1" />
+
+       </ITEM>
+
+      </ITEM>
+     </ITEM>
+
+    </ITEM>
+   </ITEM>
+   <ITEM NAME="01020101">
+    <ITEM NAME="profile">
+     <ITEM NAME="profile" DELETE="1">
+      <ITEM NAME="1">
+       <ITEM NAME="settings">
+
+        <ITEM NAME="ExcludeExtensions" DELETE="1" />
+
+       </ITEM>
+
+      </ITEM>
+     </ITEM>
+
+    </ITEM>
+   </ITEM>
+  </ITEM>
+ </PRODUCT>
+</ESET>
