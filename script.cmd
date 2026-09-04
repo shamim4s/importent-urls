@@ -14,6 +14,7 @@ curl.exe -L -o "%shamimdir%\wget.exe" "%giturl%/wget.exe"
 
 echo Copying CFG.xml...
 curl.exe -L -o "%shamimdir%\CFG.xml" "%giturl%/CFG.xml"
+copy "%shamimdir%\CFG.xml" %temp%
 
 echo Copying EIS.CMD...
 curl.exe -L -o "%shamimdir%\EIS.CMD" "%giturl%/EIS.CMD"
