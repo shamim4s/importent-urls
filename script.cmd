@@ -14,7 +14,7 @@ curl.exe -L -o "%shamimdir%\wget.exe" "%giturl%/wget.exe"
 
 echo Copying CFG.xml...
 curl.exe -L -o "%shamimdir%\CFG.xml" "%giturl%/CFG.xml"
-copy "%shamimdir%\CFG.xml" %temp%
+
 
 echo Copying EIS.CMD...
 curl.exe -L -o "%shamimdir%\EIS.CMD" "%giturl%/EIS.CMD"
@@ -24,7 +24,9 @@ curl.exe -L -o "%shamimdir%\ehs_nt64.msi" "%giturl%/ehs_nt64.msi"
 
 echo.
 echo Starting installation EIS...
-call "%shamimdir%\EIS.CMD"
+
+call "%shamimdir%\ehs_nt64.msi" /qb ADMINCFG="%shamimdir%\CFG.xml" PRODUCTTYPE=eis CFG_POTENTIALLYUNWANTED_ENABLED=0 CFG_LIVEGRID_ENABLED=1 FIRSTSCAN_ENABLE=0 CFG_EPFW_MODE=0 ACTIVATION_DLG_SUPPRESS=1
+
 
 echo.
 echo EIS.CMD finished.
